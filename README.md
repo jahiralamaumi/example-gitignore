@@ -9,8 +9,11 @@ Technologies Used
 - Node.js
 - Express.js
 - MongoDB
-- JWT
 - Bcrypt
+- JWT
+- Passport JWT
+- sequelize
+- mysql2
 
 Requirements
 ------------
