@@ -66,7 +66,19 @@ Features
 Routes
 ------
 
-   Method Route Description     POST `/api/auth/register` Register a new user   POST `/api/auth/login` Log in an existing user   POST `/api/auth/logout` Log out a user   POST `/api/auth/token` Refresh access token   GET `/api/products` Get all products   GET `/api/products/:id` Get a specific product   POST `/api/products` Add a new product   PUT `/api/products/:id` Update a product   DELETE `/api/products/:id` Delete a product  
+| Method | Route | Description |
+| -------- | -------- | -------- |
+| POST | `/api/auth/register` | Register a new user |
+| POST | `/api/auth/login` | Log in an existing user |
+| POST | `/api/auth/logout` | Log out a user |
+| POST | `/api/auth/token` | Refresh access token |
+| GET | `/api/products` | Get all products |
+| GET | `/api/products/:id` | Get a specific product |
+| POST | `/api/products` | Add a new product |
+| PUT | `/api/products/:id` | Update a product |
+| DELETE | `/api/products/:id` | Delete a product |
+
+
 
 License
 -------
