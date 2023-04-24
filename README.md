@@ -24,50 +24,36 @@ Getting Started
 1. Clone the repository:
 
 ```
-
-
+bash
+git clone https://github.com/your-username/your-repository.git
  
 ```
-
-bashCopy code
-
-`git clone https://github.com/your-username/your-repository.git `
 
 2. Install dependencies:
 
 ```
-
-
+bash
+`cd your-repository npm install `
  
 ```
-
-bashCopy code
-
-`cd your-repository npm install `
 
 3. Create a `.env` file in the root directory with the following contents:
 
 ```
 
-
- 
-```
-
-phpCopy code
-
 `PORT=3000 MONGODB_URI=mongodb+srv://:@/?retryWrites=true&w=majority ACCESS_TOKEN_SECRET= REFRESH_TOKEN_SECRET= `
+
+```
 
 4. Start the server:
 
 ```
 
-
+`npm start `
  
 ```
 
-sqlCopy code
 
-`npm start `
 
 Features
 --------
